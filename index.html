@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murtuza Malik - Portfolio</title><style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #0d47a1, #1976d2);
+        color: #fff;
+        overflow-x: hidden;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        animation: fadeDown 1.2s ease;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        opacity: 0.9;
+    }
+
+    .container {
+        width: 85%;
+        max-width: 900px;
+        margin: 40px auto;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        animation: fadeUp 1.5s ease;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        border-left: 5px solid #fff;
+        padding-left: 10px;
+    }
+
+    p, ul li {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        opacity: 0.9;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    .links a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 20px;
+        background: #fff;
+        color: #0d47a1;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        animation: popIn 1.3s ease;
+    }
+
+    .links a:hover {
+        transform: scale(1.08);
+        background: #e3f2fd;
+    }
+
+    @keyframes fadeDown {
+        from { opacity: 0; transform: translateY(-30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes popIn {
+        0% { transform: scale(0.5); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+</style>
+
+</head>
+<body><header>
+    <h1>Murtuza Malik</h1>
+    <p>Software Engineer</p>
+</header>
+
+<div class="container">
+    <h2>Summary</h2>
+    <p>
+        I am a passionate and detail-oriented Software Engineer with a strong interest in building reliable,
+        scalable, and user-focused applications. I enjoy solving complex problems, writing clean and maintainable
+        code, and continuously improving my technical skills. I adapt quickly to new technologies and thrive in
+        environments that encourage learning, innovation, and collaboration. My goal is to contribute to impactful
+        projects that make a real difference while growing as a professional in the software development field.
+    </p>
+
+    <br>
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming: Java, Python, JavaScript</li>
+        <li>Web Development: HTML, CSS, React</li>
+        <li>Database: MySQL, MongoDB</li>
+        <li>Tools: Git, VS Code, Postman</li>
+        <li>Others: Problem Solving, Debugging, Clean Code Practices</li>
+    </ul>
+
+    <br>
+    <h2>Links</h2>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/murtuza-bakhtiyar-2325a5392" target="_blank">LinkedIn Profile</a>
+        
+    </div>
+</div>
+
+</body>
+</html>
